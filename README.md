@@ -6,6 +6,20 @@
 
 [作业项目Go Online分享链接](http://139.9.57.167:20080/share/bmk5age76kvmo1a88140?secret=false)
 
+用户名:lelouch 项目名:agenda
+
+用chmod -R 777 /home给home目录递归777权限
+
+然后用go run main.go 测试命令
+
+如:go run main.go help
+
+go run main.go list
+
+go run main.go register等
+
+虽然在go online上不会显示创建的文件,但还是能够正常创建且读写的.
+
 下载安装cobra.
 
 在终端用cobra init命令创建一个命令行项目
